@@ -1,0 +1,24 @@
+COLONNE				TIPO DATO				ATTRIBUTI							INDICE
+
+ID				Bigint					Unique, Not null, Auto increment				Primary key
+MARCA				Varchar (50)				Not null
+MODELLO				Varchar	(50)				Not null							
+VERSIONE			Varchar	(50)				Not null
+TELAIO				Char (17)				Unique, Not null
+TARGA				Varchar	(10)				Unique, Not null
+TIPOLOGIA VEICOLO		Varchar	(20)				Not null
+N° PORTE			Tinyint (1)				Default
+N° POSTI			Tinyint (1)				Default
+CAMBIO				Varchar (20)				Not null
+POTENZA IN KW			Smallint (3)				Not null
+ALIMENTAZIONE			Varchar (50)				Not null
+DATA IMMATRICOLAZIONE		Date					Not null
+KM				Mediumint (7)				Not null
+N° PROPRIETARI			Tinyint (2)				Default
+PREZZO DI VENDITA		Float (8,2)				Not null
+SCADENZA REVISIONE		Date					Not null
+BOLLO PAGATO			Tinyint (1)				Not null
+SCADENZA BOLLO			Date					Not null
+TAGLIANDATA			Tinyint (1)				Default
+GARANZIA			Tinyint (1)				Default
+LIBRETTO MANUTENZIONI		Tinyint (1)				Default
